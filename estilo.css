@@ -4,7 +4,7 @@ body{
 }
     nav{
         margin:auto;
-        font-size:1.6vw;
+        font-size:2.6vw;
         margin-top:0px;
         text-shadow: 0 0 20px rgb(223, 44, 44); 
         box-shadow: 0 0 15px #4f9;
@@ -54,7 +54,7 @@ body{
         position: fixed;
         margin: 25px;
         right: 10px;
-        top: 60px;
+        top:75px;
     }
     .icono-desplazamiento-ig:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
@@ -194,52 +194,190 @@ body{
         color: green;
         font-size:4vw;
     }
-@media (max-width:725px) {
+
+
+@media(min-width:801px)and (max-width:1000px){
     nav{
         font-size:3vw;
-        margin-top:0px;
-        width:90vw;
+    }
+    .icono-desplazamiento-ig{
+        top:15vw;
+        right:2vw;
+    }
+    .icono-desplazamiento-tw{
+        right:2vw; 
+        top:30vw;
+    }
+    .icono-desplazamiento-face{
+        right:2vw;
+        top:42vw;
+    }
+    .icono-desplazamiento-wsp{
+        right:1vw;
+        top:55vw;
     }
     .reproductor{
         display:flex;
         position:absolute;
-        top:20%;
-        left:29%; 
-        width:20%;
-        height:37vw;
+        top:34%;
+        left:25%; 
+        width:80%;
+        height:80vw;
     }
     #id-google{
         font-size:3vw;
         display: flex;
         position: absolute;
-        top:64%;
-        left:32%;
+        top:129%;
+        left:25%;
     }
-    .google2{   
-        top:75%;
-        left:40%;
+    .google2{           
+        display: block;
+        top:139%;
+        left:35%;
         width:10vw;
         height:6vw; 
     }
+}
+
+@media(min-width:701px) and (max-width:800px){
+    nav{
+        font-size:3vw;
+    }
     .icono-desplazamiento-ig{
-        top:66px;
-        width:8vw;
-        height:3vw;
+        top:15vw;
+        right:-2vw;
     }
     .icono-desplazamiento-tw{
-        width:8vw;
-        height:3vw;
+        right:-2vw; 
+        top:30vw;
     }
     .icono-desplazamiento-face{
-        width:8vw;
-        height:3vw;
+        right:-2vw;
+        top:42vw;
     }
     .icono-desplazamiento-wsp{
-        width:8vw;
-        height:3vw;
+        right:-2vw;
+        top:55vw;
+    }
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:28%;
+        left:19%; 
+        width:80%;
+        height:80vw;
+    }
+    #id-google{
+        font-size:3vw;
+        display: flex;
+        position: absolute;
+        top:119%;
+        left:25%;
+    }
+    .google2{   
+        
+        display: block;
+        top:129%;
+        left:30%;
+        width:10vw;
+        height:6vw; 
     }
 }
-@media (max-width:450px) {
+
+
+
+
+    @media(min-width:556px) and (max-width:700px){
+    nav{
+        font-size:5vw;
+    }
+    .icono-desplazamiento-ig{
+        top:15vw;
+        right:-3vw;
+    }
+    .icono-desplazamiento-tw{
+        right:-2vw; 
+        top:30vw;
+    }
+    .icono-desplazamiento-face{
+        right:-2vw;
+        top:42vw;
+    }
+    .icono-desplazamiento-wsp{
+        right:-2vw;
+        top:55vw;
+    }
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:23%;
+        left:15%; 
+        width:80%;
+        height:80vw;
+    }
+    #id-google{
+        font-size:3vw;
+        display: flex;
+        position: absolute;
+        top:115%;
+        left:25%;
+    }
+    .google2{   
+        
+        display: block;
+        top:125%;
+        left:30%;
+        width:10vw;
+        height:6vw; 
+    }
+}
+
+
+@media(min-width:481px) and (max-width:555px){
+    nav{
+        font-size:5vw;
+    }
+    .icono-desplazamiento-ig{
+        top:15vw;
+        right:-3vw;
+    }
+    .icono-desplazamiento-tw{
+        right:-2vw; 
+        top:30vw;
+    }
+    .icono-desplazamiento-face{
+        right:-2vw;
+    }
+    .icono-desplazamiento-wsp{
+        right:-2vw;
+    }
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:25%;
+        left:15%; 
+        width:65%;
+        height:80vw;
+    }
+    #id-google{
+        font-size:3vw;
+        display: flex;
+        position: absolute;
+        top:95%;
+        left:30%;
+    }
+    .google2{   
+        top:105%;
+        left:30%;
+        width:10vw;
+        height:6vw; 
+    }
+
+}
+
+
+@media  (max-width:480px) {
     nav{
         font-size:5vw;
         margin-top:0px;
@@ -257,11 +395,11 @@ body{
         font-size: 4vw;
         display: flex;
         position: absolute;
-        top:81%;
+        top:85%;
         left:18%;
     }
     .google2{   
-        top:90%;
+        top:95%;
         left:28%;
         width:10vw;
         height:6vw; 
@@ -270,18 +408,87 @@ body{
         top:66px;
         width:10vw;
         height:6vw;
+        right:-3vw;
+        margin-left:2vw;
     }
     .icono-desplazamiento-tw{
         width:10vw;
         height:6vw;
+        right:-2vw;
+        margin-left:2vw;
     }
     .icono-desplazamiento-face{
         width:10vw;
         height:6vw;
+        right:-2vw;
+        margin-left:2vw;
     }
     .icono-desplazamiento-wsp{
         width:10vw;
         height:6vw;
+        right:-4vw;
+        margin-left:2vw;
     }
 }
 
+@media (max-width:390px){
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:30%;
+        left:1%; 
+        width:2%;
+        height:24vw;
+    }
+    .google2{   
+        top:65%;
+        left:28%;
+        width:10vw;
+        height:6vw; 
+    }
+    #id-google{
+        font-size: 4vw;
+        display: flex;
+        position: absolute;
+        top:55%;
+        left:25%;
+    }
+    .mapa{
+        position: absolute;
+        top:50px;
+        right:8vw;
+        height:88%;
+        width:88%;
+    }
+        .icono-desplazamiento-ig{
+        position: absolute;
+        top:66px;
+        width:10vw;
+        height:6vw;
+        right:-5vw;
+    }
+    .icono-desplazamiento-tw{
+        width:10vw;
+        height:6vw;
+        right:-5vw;
+    }
+    .icono-desplazamiento-face{
+        width:10vw;
+        height:6vw;
+        right:-5vw;
+    }
+    .icono-desplazamiento-wsp{
+        width:10vw;
+        height:6vw;
+        right:-5vw;
+    }
+    .parrafos{
+        color: rgb(9, 199, 94);
+        display:inline;
+        font-size:2.5vw;
+        font-family:'Open Sans',sans-serif;
+        top:55vw;
+        box-shadow: #17a2b8;
+        transition:1s;
+    }
+}

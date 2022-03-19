@@ -194,3 +194,6 @@ body{
         color: green;
         font-size:4vw;
     }
+@media screen(max-width:400px) {
+    colgroup
+}

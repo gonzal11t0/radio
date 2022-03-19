@@ -1,0 +1,196 @@
+/*pc normal*/
+body{
+    background-color: rgb(31, 31, 31);
+}
+    nav{
+        margin:auto;
+        font-size:1.6vw;
+        margin-top:0px;
+        text-shadow: 0 0 20px rgb(223, 44, 44); 
+        box-shadow: 0 0 15px #4f9;
+    }
+    .menu-horizontal{
+        list-style:none;
+        display:flex;
+        justify-content:space-around;
+        text-decoration:underline;  
+    }
+    .menu-horizontal > li > a{
+        display:block;
+        padding:15px 20px;
+        color:white;
+        text-decoration:none;
+    }
+    .menu-horizontal > li:hover{
+        background-color:#17a2b8;
+        text-decoration:underline;
+        transition: 1s;
+    }
+    .menu-vertical{
+        position:absolute;
+        display:none;
+        list-style:none;
+        width:200px;
+        background-color: rgba(0, 0, 0,.5);
+    }
+    .menu-horizontal li:hover .menu-vertical{
+        display:block;  
+    }
+    .menu-vertical li:hover{
+        background-color:#28a745;
+        transition: 2s;
+        transform: translateX(3px);
+    }
+    .menu-horizontal li a{
+        display:block;
+        color:white;
+        padding:15px 15px 15px 20px;
+        text-decoration:none;
+    }
+    
+    .icono-desplazamiento-ig{
+        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        border-radius: 20px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 60px;
+    }
+    .icono-desplazamiento-ig:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 60px;
+    }
+    .icono-desplazamiento-tw{
+        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        border-radius: 20px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top:140px;
+    }
+    .icono-desplazamiento-tw:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 140px;
+    }
+    .icono-desplazamiento-face{
+        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        border-radius: 20px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 250px;
+    }
+    .icono-desplazamiento-face:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 250px;
+    }
+    .icono-desplazamiento-wsp{
+        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        border-radius: 20px;
+        position: fixed;
+        margin: 25px;
+        right:10px;
+        top:350px;
+    }
+    .icono-desplazamiento-wsp:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: fixed;
+        margin: 25px;
+        right: 10px;
+        top: 350px;
+    }
+    .foto-icono{
+        display:flex;
+        position: absolute;
+        left:43%;
+        top:40%;
+        height:10vw;
+    }
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:30%;
+        left:43%; 
+        width:20%;
+        height:28vw;
+    }
+    #id-google{
+        color: #28a745;
+        display: flex;
+        position: absolute;
+        top:90%;
+        left:43%;
+    }
+    .google{
+        display:flex;
+        position:absolute;
+        width:-20%;        
+        top:40%;
+        left:43%;
+    }
+    .google2{
+        display:flex;
+        position:absolute;     
+        top:100%;
+        left:48%;  
+    }
+    .mapa{
+        position: absolute;
+        top:150px;
+        right:110px;
+        height:90%;
+        width: 80%;
+    }
+    .titulos{
+        color: rgb(10, 182, 87);
+        position: absolute;
+        font-size:2.5vw;
+        font-family:'Open Sans',sans-serif;
+        text-align:center;
+        transition:1s;
+    }
+    .titulos:hover{  
+        color: #4f9;
+        font-size:3.5vw;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .titulos::first-letter{    
+        font-size:4vw;
+        color: green;
+    }
+    .parrafos{
+        color: rgb(9, 199, 94);
+        position: absolute;
+        font-size:1.5vw;
+        font-family:'Open Sans',sans-serif;
+        top: 250px;
+        box-shadow: #17a2b8;
+        transition:1s;
+    }
+    .parrafos:hover{
+        color: #4f9;
+        position: absolute;
+        font-size:1.6vw;
+        font-family:'Open Sans',sans-serif;
+        text-shadow: 0 0 20px rgb(87, 86, 86); 
+        box-shadow: 0 0 25px rgb(1, 44, 21);
+        
+    }
+    .parrafos::first-letter{
+        position: absolute;
+        color: green;
+        font-size:4vw;
+    }

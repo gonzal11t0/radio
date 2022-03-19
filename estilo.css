@@ -194,6 +194,10 @@ body{
         color: green;
         font-size:4vw;
     }
-@media screen(max-width:400px) {
-    colgroup
+@media screen(max-width:450px) {
+    nav{
+        margin:auto;
+        font-size:3vw;
+
+    }
 }

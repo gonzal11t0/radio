@@ -6,8 +6,8 @@ body{
         margin:auto;
         font-size:2vw;
         margin-top:0px;
-        text-shadow: 0 0 20px rgb(223, 44, 44); 
-        box-shadow: 0 0 15px #4f9;
+        text-shadow: 0 0 20px rgb(219, 32, 32); 
+        box-shadow: 0 0 15px rgb(6, 173, 81);
     }
     .menu-horizontal{
         list-style:none;
@@ -15,159 +15,198 @@ body{
         justify-content:space-around;
         text-decoration:underline;  
     }
-    .menu-horizontal > li > a{
-        display:block;
-        padding:15px 20px;
-        color:white;
-        text-decoration:none;
-    }
     .menu-horizontal > li:hover{
         background-color:#17a2b8;
         text-decoration:underline;
-        transition: 1s;
-    }
-    .menu-vertical{
-        position:absolute;
-        display:none;
-        list-style:none;
-        width:200px;
-        background-color: rgba(0, 0, 0,.5);
-    }
-    .menu-horizontal li:hover .menu-vertical{
-        display:block;  
-    }
-    .menu-vertical li:hover{
-        background-color:#28a745;
-        transition: 2s;
-        transform: translateX(3px);
+        transition:1.5s;
     }
     .menu-horizontal li a{
         display:block;
         color:white;
         padding:15px 15px 15px 20px;
         text-decoration:none;
-    }
-    
+    }  
     .icono-desplazamiento-ig{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
-        border-radius: 20px;
-        position: fixed;
-        margin: 25px;
-        right: 10px;
-        top:60px;
+        border-radius:20px;
+        position:fixed;
+        margin:25px;
+        right:0vw;
+        top:6vw;
     }
     .icono-desplazamiento-ig:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
-        position: fixed;
-        margin: 25px;
-        right: 10px;
-        top:65px;
+        position:fixed;
+        margin:25px;
+        right:0vw;
+        top:7vw;
     }
     .icono-desplazamiento-ig-ubicacion{
-        position: absolute;
-        top:95px;
+        position:absolute;
+        top:8vw;
         width:-0vw;
         height:6vw;
-        right:10vw;
+        right:6vw;
+    }
+    .icono-desplazamiento-ig-ubicacion:hover{
+        box-shadow: 8px 4px 6px rgba(128, 125, 125, 0.7);
+        border-radius:40px;
+        position:absolute;
+        top:9vw;
+        width:-0vw;
+        height:6vw;
     }
     .icono-desplazamiento-ig-nosotros{
         position: absolute;
-        top:95px;
+        top:8vw;
         width:-0vw;
         height:6vw;
-        right:18vw;
+        right:6vw;
+    }
+    .icono-desplazamiento-ig-nosotros:hover{
+        position: absolute;
+        top:9vw;
+        width:-0vw;
+        height:6vw;
+        right:6vw;
     }
     .icono-desplazamiento-tw{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
         position: fixed;
-        margin: 25px;
-        right: 10px;
-        top:140px;
+        margin:25px;
+        right:0vw;
+        top:12vw;
     }
     .icono-desplazamiento-tw:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: fixed;
-        margin: 25px;
-        right: 10px;
-        top: 145px;
+        margin:25px;
+        right:0vw;
+        top:13vw;
     }
     .icono-desplazamiento-tw-ubicacion{
         position: absolute;
         top:15vw;
         width:0vw;
         height:6vw;
-        right:10vw;
+        right:6vw;
+    }
+    .icono-desplazamiento-tw-ubicacion:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: absolute;
+        top:16vw;
+        width:0vw;
+        height:6vw;
+        right:6vw;
     }
     .icono-desplazamiento-tw-nosotros{
         position: absolute;
-        top:30vw;
+        top:15vw;
         width:0vw;
         height:6vw;
-        right:18vw;
+        right:6vw;
+    }
+    .icono-desplazamiento-tw-nosotros:hover{
+        position: absolute;
+        top:16vw;
+        width:0vw;
+        height:6vw;
+        right:6vw;
     }
     .icono-desplazamiento-face{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
         position: fixed;
-        margin: 25px;
-        right: 10px;
-        top: 250px;
+        margin:25px;
+        right:0vw;
+        top:18vw;
     }
     .icono-desplazamiento-face:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
-        position: fixed;
-        margin: 25px;
-        right: 10px;
-        top: 255px;
+        position:fixed;
+        margin:25px;
+        right:0vw;
+        top:19vw;
     }
     .icono-desplazamiento-face-ubicacion{
         position: absolute;
         top:25vw;
         width:2vw;
         height:2vw;
-        right:8vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:45vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
-        }
+        right:4vw;
+    }
+    .icono-desplazamiento-face-ubicacion:hover{
+        position: absolute;
+        top:27vw;
+        width:2vw;
+        height:2vw;
+        right:4vw;
+    }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:25vw;
+        width:2vw;
+        height:2vw;
+        right:4vw;
+    }
+    .icono-desplazamiento-face-nosotros:hover{
+        position: absolute;
+        top:27vw;
+        width:2vw;
+        height:2vw;
+        right:4vw;
+    }
     .icono-desplazamiento-wsp{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
         position: fixed;
-        margin: 25px;
-        right:10px;
-        top:350px;
+        margin:25px;
+        right:0vw;
+        top:25vw;
     }
     .icono-desplazamiento-wsp:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: fixed;
-        margin: 25px;
-        right: 10px;
-        top: 355px;
+        margin:25px;
+        right:0vw;
+        top:26vw;
     }
     .icono-desplazamiento-wsp-ubicacion{
         position: absolute;
         top:35vw;
         width:0vw;
         height:6vw;
-        right:9vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:60vw;
-            width:0vw;
-            height:6vw;
-            right:16vw;
-        }
+        right:5vw;
+    }
+    .icono-desplazamiento-wsp-ubicacion:hover{
+        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
+        border-radius:40px;
+        position: fixed;
+        top:37vw;
+        width:0vw;
+        height:6vw;
+        right:5vw;
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:35vw;
+        width:0vw;
+        height:6vw;
+        right:5vw;
+    }
+    .icono-desplazamiento-wsp-nosotros:hover{
+        position: absolute;
+        top:37vw;
+        width:0vw;
+        height:6vw;
+        right:5vw;
+    }
     .foto-icono{
         display:flex;
         position: absolute;
@@ -205,10 +244,10 @@ body{
     }
     .mapa{
         position: absolute;
-        top:150px;
-        right:110px;
+        top:15vw;
+        right:110vw;
         height:90%;
-        width: 80%;
+        width:80%;
     }
     .titulos{
         color: rgb(10, 182, 87);
@@ -232,7 +271,7 @@ body{
         position: absolute;
         font-size:1.5vw;
         font-family:'Open Sans',sans-serif;
-        top: 250px;
+        top:20vw;
         box-shadow: #17a2b8;
         transition:1s;
     }
@@ -254,10 +293,8 @@ body{
         position: absolute;
         top:5vw;
         left:1vw;
-        width:80vw;
+        width:90vw;
     }
-
-
 @media(min-width:801px)and (max-width:1000px){
     nav{
         font-size:3vw;
@@ -309,13 +346,13 @@ body{
         height:2vw;
         right:8vw;
         }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:45vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
-        }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:45vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
+    }
     .icono-desplazamiento-wsp{
         right:1vw;
         top:55vw;
@@ -326,14 +363,14 @@ body{
         width:0vw;
         height:6vw;
         right:9vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:60vw;
-            width:0vw;
-            height:6vw;
-            right:16vw;
-        }
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:60vw;
+        width:0vw;
+        height:6vw;
+        right:16vw;
+    }
     .reproductor{
         display:flex;
         position:absolute;
@@ -360,10 +397,9 @@ body{
         position: absolute;
         top:8vw;
         left:1vw;
-        width:80vw;
+        width:8vw;
     }
 }
-
 @media(min-width:701px) and (max-width:800px){
     nav{
         font-size:3vw;
@@ -414,14 +450,14 @@ body{
         width:2vw;
         height:2vw;
         right:14vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:55vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
-        }
+    }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:55vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
+    }
     .icono-desplazamiento-wsp{
         right:-2vw;
         top:55vw;
@@ -432,14 +468,14 @@ body{
         width:0vw;
         height:6vw;
         right:14vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:75vw;
-            width:0vw;
-            height:6vw;
-            right:16vw;
-        }
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:75vw;
+        width:0vw;
+        height:6vw;
+        right:16vw;
+    }
     .reproductor{
         display:flex;
         position:absolute;
@@ -470,7 +506,6 @@ body{
         width:80vw;
     }
 }
-
     @media(min-width:556px) and (max-width:700px){
     nav{
         font-size:5vw;
@@ -521,14 +556,14 @@ body{
         width:2vw;
         height:2vw;
         right:15vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:85vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
-        }
+    }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:85vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
+    }
     .icono-desplazamiento-wsp{
         right:-2vw;
         top:55vw;
@@ -539,14 +574,14 @@ body{
         width:0vw;
         height:6vw;
         right:14vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:115vw;
-            width:0vw;
-            height:6vw;
-            right:14vw;
-        }
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:115vw;
+        width:0vw;
+        height:6vw;
+        right:14vw;
+    }
     .reproductor{
         display:flex;
         position:absolute;
@@ -577,8 +612,6 @@ body{
         width:80vw;
     }
 }
-
-
 @media(min-width:481px) and (max-width:555px){
     nav{
         font-size:5vw;
@@ -628,14 +661,14 @@ body{
         width:2vw;
         height:2vw;
         right:15vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:85vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
-        }
+    }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:85vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
+    }
     .icono-desplazamiento-wsp{
         right:-2vw;
     }
@@ -645,14 +678,14 @@ body{
         width:0vw;
         height:6vw;
         right:14vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:115vw;
-            width:0vw;
-            height:6vw;
-            right:14vw;
-        }
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:115vw;
+        width:0vw;
+        height:6vw;
+        right:14vw;
+    }
     .reproductor{
         display:flex;
         position:absolute;
@@ -682,7 +715,6 @@ body{
     }
 
 }
-
 @media  (max-width:480px) {
     nav{
         font-size:5vw;
@@ -764,12 +796,12 @@ body{
         height:2vw;
         right:15vw;
         }
-        .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:85vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:85vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
         }
     .icono-desplazamiento-wsp{
         width:10vw;
@@ -784,22 +816,20 @@ body{
         height:6vw;
         right:14vw;
         }
-        .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:115vw;
-            width:0vw;
-            height:6vw;
-            right:14vw;
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:115vw;
+        width:0vw;
+        height:6vw;
+        right:14vw;
         }
-        .mapa{
-            position: absolute;
-            top:20vw;
-            left:1vw;
-            width:80vw;
-        }
-    
+    .mapa{
+        position: absolute;
+        top:20vw;
+        left:1vw;
+        width:80vw;
+        }    
 }
-
 @media (max-width:390px){
     .reproductor{
         display:flex;
@@ -882,11 +912,11 @@ body{
         right:15vw;
         }
         .icono-desplazamiento-face-nosotros{
-            position: absolute;
-            top:85vw;
-            width:2vw;
-            height:2vw;
-            right:15vw;
+        position: absolute;
+        top:85vw;
+        width:2vw;
+        height:2vw;
+        right:15vw;
         }
     .icono-desplazamiento-wsp{
         width:0vw;
@@ -901,11 +931,11 @@ body{
         right:14vw;
         }
         .icono-desplazamiento-wsp-nosotros{
-            position: absolute;
-            top:115vw;
-            width:0vw;
-            height:6vw;
-            right:14vw;
+        position: absolute;
+        top:115vw;
+        width:0vw;
+        height:6vw;
+        right:14vw;
         }
     .parrafos{
         color: rgb(9, 199, 94);

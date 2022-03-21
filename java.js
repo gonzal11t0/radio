@@ -2,5 +2,5 @@ window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
     e.returnValue = '';
     });
-window.onload=function(){alert('Bienvenido a nuestra radio')
-;}
+//window.onload=function(){alert('Bienvenido a nuestra radio')
+//;}

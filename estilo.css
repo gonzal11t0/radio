@@ -639,6 +639,7 @@ body{
     }
     .mapa{
         width:95vw;
+        top:15vw;
     }
     .icono-desplazamiento-ig-nosotros{
         position: absolute;

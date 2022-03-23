@@ -8,11 +8,10 @@
 .icono-desplazamiento-face-ubicacion{
 .icono-desplazamiento-face-nosotros{
 .icono-desplazamiento-wsp{
-.icono-desplazamiento-wsp-ubicacion{
 .icono-desplazamiento-wsp-nosotros{
 .reproductor{
 #id-google{
-.google{
+.google2{
 .titulos{
 .titulos:hover{ 
 .titulos::first-letter{ 

@@ -217,10 +217,10 @@ body{
     .reproductor{
         display:flex;
         position:absolute;
-        top:30%;
-        left:43%; 
-        width:20%;
-        height:28vw;
+        top:10vw;
+        left:40vw; 
+        width:90vw;
+        height:30vw;
     }
     #id-google{
         color: #28a745;
@@ -289,239 +289,7 @@ body{
         width:83vw;
         height:40vw;
     }
-@media screen and (min-width:801px) and (max-width:1000px){
-    nav{
-        font-size:3vw;
-    }
-    .icono-desplazamiento-ig{
-        top:10vw;
-        right:8vw;
-    }
-    .icono-desplazamiento-ig-ubicacion{
-        position: absolute;
-        top:95px;
-        width:-0vw;
-        height:6vw;
-        right:10vw;
-    }
-    .icono-desplazamiento-ig-nosotros{
-        position: absolute;
-        top:95px;
-        width:-0vw;
-        height:6vw;
-        right:18vw;
-    }
-    .icono-desplazamiento-tw{
-        right:8vw; 
-        top:23vw;
-    }
-    .icono-desplazamiento-tw-ubicacion{
-        position: absolute;
-        top:35vw;
-        width:0vw;
-        height:6vw;
-        right:10vw;
-    }
-    .icono-desplazamiento-tw-nosotros{
-        position: absolute;
-        top:30vw;
-        width:0vw;
-        height:6vw;
-        right:18vw;
-    }
-    .icono-desplazamiento-face{
-        right:8vw;
-        top:35vw;
-    }
-    .icono-desplazamiento-face-ubicacion{
-        position: absolute;
-        top:50vw;
-        width:2vw;
-        height:2vw;
-        right:8vw;
-        }
-    .icono-desplazamiento-face-nosotros{
-        position: absolute;
-        top:45vw;
-        width:2vw;
-        height:2vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-wsp{
-        right:8vw;
-        top:45vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        position: absolute;
-        top:65vw;
-        width:0vw;
-        height:6vw;
-        right:9vw;
-    }
-    .icono-desplazamiento-wsp-nosotros{
-        position: absolute;
-        top:60vw;
-        width:0vw;
-        height:6vw;
-        right:16vw;
-    }
-    .reproductor{
-        display:flex;
-        position:absolute;
-        top:34%;
-        left:29%; 
-        width:80%;
-        height:80vw;
-    }
-    #id-google{
-        font-size:3vw;
-        display: flex;
-        position: absolute;
-        top:85vw;
-        left:29%;
-    }
-    .google2{           
-        display: block;
-        top:95vw;
-        left:35%;
-        width:10vw;
-        height:6vw; 
-    }
-    .mapa{
-        position: absolute;
-        top:8vw;
-        left:1vw;
-        width:8vw;
-    }
-}
-@media screen and (min-width:701px) and (max-width:800px){
-    nav{
-        font-size:3vw;
-    }
-    .icono-desplazamiento-ig{
-        top:15vw;
-        right:-2vw;
-    }
-    .icono-desplazamiento-ig-ubicacion{
-        position: absolute;
-        top:105px;
-        width:-0vw;
-        height:6vw;
-        right:10vw;
-    }
-    .icono-desplazamiento-ig-nosotros{
-        position: absolute;
-        top:95px;
-        width:-0vw;
-        height:6vw;
-        right:18vw;
-    }
-    .icono-desplazamiento-tw{
-        right:-2vw; 
-        top:30vw;
-    }
-    .icono-desplazamiento-tw-ubicacion{
-        position: absolute;
-        top:30vw;
-        width:0vw;
-        height:6vw;
-        right:10vw;
-    }
-    .icono-desplazamiento-tw-nosotros{
-        position: absolute;
-        top:30vw;
-        width:0vw;
-        height:6vw;
-        right:18vw;
-    }
-    .icono-desplazamiento-face{
-        right:-2vw;
-        top:42vw;
-    }
-    .icono-desplazamiento-face-ubicacion{
-        position: absolute;
-        top:45vw;
-        width:2vw;
-        height:2vw;
-        right:8vw;
-    }
-    .icono-desplazamiento-face-nosotros{
-        position: absolute;
-        top:55vw;
-        width:2vw;
-        height:2vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-wsp{
-        right:-2vw;
-        top:55vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        position: absolute;
-        top:60vw;
-        width:0vw;
-        height:6vw;
-        right:9vw;
-    }
-    .icono-desplazamiento-wsp-nosotros{
-        position: absolute;
-        top:75vw;
-        width:0vw;
-        height:6vw;
-        right:16vw;
-    }
-    .reproductor{
-        display:flex;
-        position:absolute;
-        top:28%;
-        left:19%; 
-        width:80%;
-        height:80vw;
-    }
-    #id-google{
-        font-size:3vw;
-        display: flex;
-        position: absolute;
-        top:93vw;
-        left:22vw;
-    }
-    .google2{   
-        
-        display: block;
-        top:105vw;
-        left:30%;
-        width:10vw;
-        height:6vw; 
-    }
-    .mapa{
-        position: absolute;
-        top:10vw;
-        left:1vw;
-        width:80vw;
-    }
-    .titulos{
-        color: rgb(10, 182, 87);
-        position: absolute;
-        font-size:4vw;
-        font-family:'Open Sans',sans-serif;
-        text-align:center;
-        transition:1s;
-    }
-    .titulos::first-letter{    
-        font-size:6vw;
-        color: green;
-    }
-    .parrafos{
-        color: rgb(9, 199, 94);
-        display:inline;
-        font-size:3vw;
-        font-family:'Open Sans',sans-serif;
-        top:42vw;
-        box-shadow: #17a2b8;
-        transition:1s;
-    }
-}
-    @media(min-width:556px) and (max-width:700px){
+@media(min-width:600px) and (max-width:800px){
     nav{
         font-size:5vw;
     }
@@ -538,7 +306,7 @@ body{
     }
     .icono-desplazamiento-ig-nosotros{
         position: absolute;
-        top:95px;
+        top:120px;
         width:-0vw;
         height:6vw;
         right:13vw;
@@ -563,7 +331,7 @@ body{
     }
     .icono-desplazamiento-face{
         right:-2vw;
-        top:48vw;
+        top:42vw;
     }
     .icono-desplazamiento-face-ubicacion{
         position: absolute;
@@ -581,7 +349,7 @@ body{
     }
     .icono-desplazamiento-wsp{
         right:-2vw;
-        top:65vw;
+        top:54vw;
     }
     .icono-desplazamiento-wsp-ubicacion{
         position: absolute;
@@ -609,7 +377,7 @@ body{
         font-size:3vw;
         display: flex;
         position: absolute;
-        top:97vw;
+        top:103vw;
         left:25%;
     }
     .google2{   
@@ -622,9 +390,10 @@ body{
     }
     .mapa{
         position: absolute;
-        top:15vw;
+        top:12vw;
         left:1vw;
-        width:80vw;
+        width:83vw;
+        height:81vw;
     }
     .titulos{
         color: rgb(10, 182, 87);
@@ -643,138 +412,17 @@ body{
         display:inline;
         font-size:3vw;
         font-family:'Open Sans',sans-serif;
-        top:60vw;
+        top:50vw;
         box-shadow: #17a2b8;
         transition:1s;
-    }
-}
-@media screen and (min-width:481px) and (max-width:555px){
-    nav{
-        font-size:5vw;
-    }
-    .icono-desplazamiento-ig{
-        top:15vw;
-        right:-3vw;
-    }
-    .icono-desplazamiento-ig-ubicacion{
-        position: absolute;
-        top:95px;
-        width:-0vw;
-        height:6vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-ig-nosotros{
-        position: absolute;
-        top:95px;
-        width:-0vw;
-        height:6vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-tw{
-        right:-2vw; 
-        top:35vw;
-    }
-    .icono-desplazamiento-tw-ubicacion{
-        position: absolute;
-        top:40vw;
-        width:0vw;
-        height:6vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-tw-nosotros{
-        position: absolute;
-        top:40vw;
-        width:0vw;
-        height:6vw;
-        right:15vw;
-    }
-    .icono-desplazamiento-face{
-        right:-2vw;
-        top:55vw;
-    }
-    .icono-desplazamiento-face-ubicacion{
-        position: absolute;
-        top:65vw;
-        width:2vw;
-        height:2vw;
-        right:13vw;
-    }
-    .icono-desplazamiento-face-nosotros{
-        position: absolute;
-        top:65vw;
-        width:2vw;
-        height:2vw;
-        right:13vw;
-    }
-    .icono-desplazamiento-wsp{
-        right:-2vw;
-        top:75vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        position: absolute;
-        top:90vw;
-        width:0vw;
-        height:6vw;
-        right:12vw;
-    }
-    .icono-desplazamiento-wsp-nosotros{
-        position: absolute;
-        top:82vw;
-        width:0vw;
-        height:6vw;
-        right:12vw;
-    }
-    .reproductor{
-        display:flex;
-        position:absolute;
-        top:25%;
-        left:15%; 
-        width:65%;
-        height:80vw;
-    }
-    #id-google{
-        font-size:3vw;
-        display: flex;
-        position: absolute;
-        top:105vw;
-        left:25vw;
-    }
-    .google2{   
-        top:115vw;
-        left:30vw;
-        width:10vw;
-        height:6vw; 
-    }
-    .mapa{
-        position: absolute;
-        top:13vw;
-        left:1vw;
         width:80vw;
     }
-    .titulos{
-        color: rgb(10, 182, 87);
-        position: absolute;
-        font-size:6vw;
-        font-family:'Open Sans',sans-serif;
-        text-align:center;
-        transition:1s;
+    .parrafos:hover{
+        font-size:3.5vw;
+        width:80vw;
     }
-    .titulos::first-letter{    
-        font-size:8vw;
-        color: green;
-    }
-    .parrafos{
-        color: rgb(9, 199, 94);
-        display:inline;
-        font-size:2.5vw;
-        font-family:'Open Sans',sans-serif;
-        top:45vw;
-        box-shadow: #17a2b8;
-        transition:1s;
-    }
-
 }
-@media screen and  (max-width:480px) {
+@media screen and (min-width:400px) and  (max-width:600px) {
     nav{
         font-size:5vw;
         margin-top:0px;
@@ -909,273 +557,130 @@ body{
         display:inline;
         font-size:3vw;
         font-family:'Open Sans',sans-serif;
-        top:62vw;
+        top:55vw;
         box-shadow: #17a2b8;
         transition:1s;
+        width:80vw;
+    }
+    .parrafos:hover{
+        font-size:3.5vw;
+        width:80vw;
     }
 }
-@media screen and  (max-width:390px){
-    .reproductor{
-        display:flex;
-        position:absolute;
-        top:30%;
-        left:1%; 
-        width:2%;
-        height:24vw;
+@media screen and (min-width:280px) and (max-width:400px){
+    nav{
+        font-size:5vw;
     }
-    .google2{   
-        top:65%;
-        left:28%;
-        width:10vw;
-        height:6vw; 
+    .menu-horizontal li a{
+        display:block;
+        color:white;
+        padding:15px 20px 15px 10px;
+        text-decoration:none;
+    }  
+    .reproductor{
+        left: 0vw;
+        top:25vw;
     }
     #id-google{
-        font-size: 4vw;
-        display: flex;
-        position: absolute;
-        top:55%;
-        left:25%;
+        font-size:5vw;
+        top:120vw;
+        left:22vw;
     }
-    .mapa{
-        position: absolute;
-        top:50px;
-        right:8vw;
-        height:88%;
-        width:88%;
+    .google2{
+        top:130vw;
     }
-        .icono-desplazamiento-ig{
+    .icono-desplazamiento-ig{
         position: absolute;
-        top:66px;
+        top:90vw;
+        left:2vw;
+        width:13vw;
+    }
+    .icono-desplazamiento-wsp{
+        position: absolute;
+        top:93vw;
+        left:75vw;
+        width:13vw;
+    }
+    .icono-desplazamiento-face{
+        position: absolute;
+        top:90vw;
+        left:25vw;
+        width:13vw;
+    }
+    .icono-desplazamiento-tw{
+        position: absolute;
+        top:90vw;
+        left:50vw;
         width:10vw;
-        height:6vw;
-        right:-2vw;
     }
     .icono-desplazamiento-ig-ubicacion{
         position: absolute;
-        top:78px;
-        width:-0vw;
-        height:6vw;
-        right:18vw;
+        top:135vw;
+        left:2vw;
+        width:13vw;
     }
-    .icono-desplazamiento-ig-nosotros{
+    .icono-desplazamiento-wsp-ubicacion{
         position: absolute;
-        top:78px;
-        width:-0vw;
-        height:6vw;
-        right:18vw;
+        top:138vw;
+        left:75vw;
+        width:13vw;
     }
-    .icono-desplazamiento-tw{
-        width:10vw;
-        height:6vw;
-        right:-2vw;
-        top:40vw;
+    .icono-desplazamiento-face-ubicacion{
+        position: absolute;
+        top:135vw;
+        left:25vw;
+        width:13vw;
     }
     .icono-desplazamiento-tw-ubicacion{
         position: absolute;
-        top:50vw;
-        width:0vw;
-        height:6vw;
-        right:18vw;
+        top:135vw;
+        left:50vw;
+        width:10vw;
+    }
+    .mapa{
+        width:95vw;
+    }
+    .icono-desplazamiento-ig-nosotros{
+        position: absolute;
+        top:135vw;
+        left:2vw;
+        width:13vw;
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        position: absolute;
+        top:138vw;
+        left:75vw;
+        width:13vw;
+    }
+    .icono-desplazamiento-face-nosotros{
+        position: absolute;
+        top:135vw;
+        left:25vw;
+        width:13vw;
     }
     .icono-desplazamiento-tw-nosotros{
         position: absolute;
-        top:50vw;
-        width:0vw;
-        height:6vw;
-        right:18vw;
-    }
-    .icono-desplazamiento-face{
+        top:135vw;
+        left:50vw;
         width:10vw;
-        height:6vw;
-        right:-2vw;
-        top:65vw;
     }
-    .icono-desplazamiento-face-ubicacion{
-        position: absolute;
-        top:85vw;
-        width:2vw;
-        height:2vw;
-        right:15vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-        position: absolute;
-        top:85vw;
-        width:2vw;
-        height:2vw;
-        right:15vw;
-        }
-    .icono-desplazamiento-wsp{
-        position: absolute;
-        top:65vw;
-        width:0vw;
-        height:6vw;
-        right:14vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        position: absolute;
-        top:115vw;
-        width:0vw;
-        height:6vw;
-        right:14vw;
-    }
-        .icono-desplazamiento-wsp-nosotros{
-        position: absolute;
-        top:115vw;
-        width:0vw;
-        height:6vw;
-        right:14vw;
-        }
     .titulos{
-        color: rgb(10, 182, 87);
-        position: absolute;
-        font-size:6vw;
-        font-family:'Open Sans',sans-serif;
-        text-align:center;
-        transition:1s;
+    font-size:5vw;
     }
-    .titulos::first-letter{    
+    .titulos:hover{ 
         font-size:8vw;
-        color: green;
+    }
+    .titulos::first-letter{ 
+        font-size:10vw;
     }
     .parrafos{
-        color: rgb(9, 199, 94);
-        display:inline;
-        font-size:3vw;
-        font-family:'Open Sans',sans-serif;
-        top:62vw;
-        box-shadow: #17a2b8;
-        transition:1s;
-    }
-}
-/*balckberry palybook(600*1024)*/
-/*@media (min-width:590px) and (max-width:601px){
-    .reproductor{
-        top:20vw;
-        height:16vw;    
-    }
-    #id-google{
+        top:45vw;
         font-size:4vw;
-        top:35vw;
-        left:16vw;
     }
-    .google2{
-        top:50vw;
+    .parrafos:hover{
+        font-size:4.5vw;
     }
-    .mapa{
-    top:10vw;
-    height:70vw;
-    }   
-    .icono-desplazamiento-tw-ubicacion{
-        top:38vw;
-    }
-    .icono-desplazamiento-face-ubicacion{
-        top:55vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        top:75vw;
-    }
-    .parrafos{
-        font-size:2.5vw;
-        top:35vw;
+    .parrafos::first-letter{
+        font-size: 8vw;
     }
 }
-
-/*galaxy s8(360px-740px)*/
-/*@media (min-width:355px) and (max-width:365px){
-    .reproductor{
-        top:20vw;
-        height:80vw;
-    }
-    #id-google{
-        font-size:4vw;
-        top:105vw;
-        left: 0vw;
-    }
-    .google2{
-        position:relative;
-        top:76vw;
-        left:49vw;
-        width:5vw;
-    }
-}
-/*galaxy s9+(320px-658px)*/
-/*@media (min-width:315px) and (max-width:325px){
-    .reproductor{
-        top:25vw;
-        height:30vw;
-    }
-    .icono-desplazamiento-ig{
-        right:70vw;
-        top: 65vw;
-        width:20vw;
-    }
-    .icono-desplazamiento-tw{
-        right:35vw;
-        top:65vw;
-        width:20vw;
-    }
-    .icono-desplazamiento-face{
-        right:0vw;
-        width:20vw;
-    }
-    #id-google{
-        font-size:6vw;
-        top:90vw;
-        right:15vw;
-    }
-    .google2{
-        top:110vw;
-    }
-}
-/*galaxy tab S4(712px-1138px)*/
-/*@media (min-width:700px) and (max-width:715px){
-    .reproductor{
-        top:13vw;
-        left:0vw;
-        height:54vw;
-    }
-    #id-google{
-        font-size:3vw;
-        top:20vw;
-        left:45vw;
-    }
-    .google2{
-        top:30vw;
-        left:55vw;
-    }
-    .icono-desplazamiento-ig-ubicacion{
-    top:13vw;
-    }
-    .icono-desplazamiento-tw-ubicacion{
-        top:24vw;
-    }
-    .icono-desplazamiento-face-ubicacion{
-        top:40vw;
-    }
-    .icono-desplazamiento-wsp-ubicacion{
-        top:54vw;
-    }
-    .mapa{
-        top:7vw;
-        height:52vw;
-    }
-    .icono-desplazamiento-ig-nosotros{
-        top:13vw;
-        right:10vw;
-        }
-        .icono-desplazamiento-tw-nosotros{
-            top:24vw;
-            right:10vw;
-        }
-        .icono-desplazamiento-face-nosotros{
-            top:40vw;
-            right:8vw;
-        }
-        .icono-desplazamiento-wsp-nosotros{
-            top:54vw;
-            right:8vw;
-        }
-        .parrafos{
-            top:28vw;
-        }
-}*/

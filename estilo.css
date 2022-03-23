@@ -34,14 +34,14 @@ body{
         right:0vw;
         top:6vw;
     }
-    .icono-desplazamiento-ig:hover{
+    /*.icono-desplazamiento-ig:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position:fixed;
         margin:25px;
         right:0vw;
         top:7vw;
-    }
+    }*/
     .icono-desplazamiento-ig-ubicacion{
         position:absolute;
         top:8vw;
@@ -49,14 +49,14 @@ body{
         height:6vw;
         right:6vw;
     }
-    .icono-desplazamiento-ig-ubicacion:hover{
+    /*.icono-desplazamiento-ig-ubicacion:hover{
         box-shadow: 8px 4px 6px rgba(128, 125, 125, 0.7);
         border-radius:40px;
         position:absolute;
         top:9vw;
         width:-0vw;
         height:6vw;
-    }
+    }*/
     .icono-desplazamiento-ig-nosotros{
         position: absolute;
         top:8vw;
@@ -64,13 +64,13 @@ body{
         height:6vw;
         right:6vw;
     }
-    .icono-desplazamiento-ig-nosotros:hover{
+    /*.icono-desplazamiento-ig-nosotros:hover{
         position: absolute;
         top:9vw;
         width:-0vw;
         height:6vw;
         right:6vw;
-    }
+    }*/
     .icono-desplazamiento-tw{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
@@ -79,14 +79,14 @@ body{
         right:0vw;
         top:12vw;
     }
-    .icono-desplazamiento-tw:hover{
+    /*.icono-desplazamiento-tw:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: fixed;
         margin:25px;
         right:0vw;
         top:13vw;
-    }
+    }*/
     .icono-desplazamiento-tw-ubicacion{
         position: absolute;
         top:15vw;
@@ -94,7 +94,7 @@ body{
         height:6vw;
         right:6vw;
     }
-    .icono-desplazamiento-tw-ubicacion:hover{
+    /*.icono-desplazamiento-tw-ubicacion:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: absolute;
@@ -102,7 +102,7 @@ body{
         width:0vw;
         height:6vw;
         right:6vw;
-    }
+    }*/
     .icono-desplazamiento-tw-nosotros{
         position: absolute;
         top:15vw;
@@ -110,13 +110,13 @@ body{
         height:6vw;
         right:6vw;
     }
-    .icono-desplazamiento-tw-nosotros:hover{
+    /*.icono-desplazamiento-tw-nosotros:hover{
         position: absolute;
         top:16vw;
         width:0vw;
         height:6vw;
         right:6vw;
-    }
+    }*/
     .icono-desplazamiento-face{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
@@ -125,14 +125,14 @@ body{
         right:0vw;
         top:18vw;
     }
-    .icono-desplazamiento-face:hover{
+    /*.icono-desplazamiento-face:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position:fixed;
         margin:25px;
         right:0vw;
         top:19vw;
-    }
+    }*/
     .icono-desplazamiento-face-ubicacion{
         position: absolute;
         top:25vw;
@@ -140,13 +140,13 @@ body{
         height:2vw;
         right:4vw;
     }
-    .icono-desplazamiento-face-ubicacion:hover{
+    /*.icono-desplazamiento-face-ubicacion:hover{
         position: absolute;
         top:27vw;
         width:2vw;
         height:2vw;
         right:4vw;
-    }
+    }*/
     .icono-desplazamiento-face-nosotros{
         position: absolute;
         top:25vw;
@@ -154,13 +154,13 @@ body{
         height:2vw;
         right:4vw;
     }
-    .icono-desplazamiento-face-nosotros:hover{
+    /*.icono-desplazamiento-face-nosotros:hover{
         position: absolute;
         top:27vw;
         width:2vw;
         height:2vw;
         right:4vw;
-    }
+    }*/
     .icono-desplazamiento-wsp{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius: 20px;
@@ -169,14 +169,14 @@ body{
         right:0vw;
         top:25vw;
     }
-    .icono-desplazamiento-wsp:hover{
+    /*.icono-desplazamiento-wsp:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: fixed;
         margin:25px;
         right:0vw;
         top:26vw;
-    }
+    }*/
     .icono-desplazamiento-wsp-ubicacion{
         position: absolute;
         top:35vw;
@@ -184,7 +184,7 @@ body{
         height:6vw;
         right:5vw;
     }
-    .icono-desplazamiento-wsp-ubicacion:hover{
+    /*.icono-desplazamiento-wsp-ubicacion:hover{
         box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
         border-radius:40px;
         position: fixed;
@@ -192,7 +192,7 @@ body{
         width:0vw;
         height:6vw;
         right:5vw;
-    }
+    }*/
     .icono-desplazamiento-wsp-nosotros{
         position: absolute;
         top:35vw;
@@ -200,13 +200,13 @@ body{
         height:6vw;
         right:5vw;
     }
-    .icono-desplazamiento-wsp-nosotros:hover{
+    /*.icono-desplazamiento-wsp-nosotros:hover{
         position: absolute;
         top:37vw;
         width:0vw;
         height:6vw;
         right:5vw;
-    }
+    }*/
     .foto-icono{
         display:flex;
         position: absolute;
@@ -1047,3 +1047,137 @@ body{
         transition:1s;
     }
 }
+/*balckberry palybook(600*1024)*/
+@media (min-width:590px) and (max-width:601px){
+    .reproductor{
+        top:20vw;
+        height:16vw;    
+    }
+    #id-google{
+        font-size:4vw;
+        top:35vw;
+        left:16vw;
+    }
+    .google2{
+        top:50vw;
+    }
+    .mapa{
+    top:10vw;
+    height:70vw;
+    }   
+    .icono-desplazamiento-tw-ubicacion{
+        top:38vw;
+    }
+    .icono-desplazamiento-face-ubicacion{
+        top:55vw;
+    }
+    .icono-desplazamiento-wsp-ubicacion{
+        top:75vw;
+    }
+    .parrafos{
+        font-size:2.5vw;
+        top:35vw;
+    }
+}
+
+/*galaxy s8(360px-740px)*/
+@media (min-width:355px) and (max-width:365px){
+    .reproductor{
+        top:20vw;
+        height:80vw;
+    }
+    #id-google{
+        font-size:4vw;
+        top:105vw;
+        left: 0vw;
+    }
+    .google2{
+        position:relative;
+        top:76vw;
+        left:49vw;
+        width:5vw;
+    }
+}
+/*galaxy s9+(320px-658px)*/
+@media (min-width:315px) and (max-width:325px){
+    .reproductor{
+        top:25vw;
+        height:30vw;
+    }
+    .icono-desplazamiento-ig{
+        right:70vw;
+        top: 65vw;
+        width:20vw;
+    }
+    .icono-desplazamiento-tw{
+        right:35vw;
+        top:65vw;
+        width:20vw;
+    }
+    .icono-desplazamiento-face{
+        right:0vw;
+        width:20vw;
+    }
+    #id-google{
+        font-size:6vw;
+        top:90vw;
+        right:15vw;
+    }
+    .google2{
+        top:110vw;
+    }
+}
+/*galaxy tab S4(712px-1138px)*/
+@media (min-width:700px) and (max-width:715px){
+    .reproductor{
+        top:13vw;
+        left:0vw;
+        height:54vw;
+    }
+    #id-google{
+        font-size:3vw;
+        top:20vw;
+        left:45vw;
+    }
+    .google2{
+        top:30vw;
+        left:55vw;
+    }
+    .icono-desplazamiento-ig-ubicacion{
+    top:13vw;
+    }
+    .icono-desplazamiento-tw-ubicacion{
+        top:24vw;
+    }
+    .icono-desplazamiento-face-ubicacion{
+        top:40vw;
+    }
+    .icono-desplazamiento-wsp-ubicacion{
+        top:54vw;
+    }
+    .mapa{
+        top:7vw;
+        height:52vw;
+    }
+    .icono-desplazamiento-ig-nosotros{
+        top:13vw;
+        right:10vw;
+        }
+        .icono-desplazamiento-tw-nosotros{
+            top:24vw;
+            right:10vw;
+        }
+        .icono-desplazamiento-face-nosotros{
+            top:40vw;
+            right:8vw;
+        }
+        .icono-desplazamiento-wsp-nosotros{
+            top:54vw;
+            right:8vw;
+        }
+        .parrafos{
+            top:28vw;
+        }
+}
+/* moto g4(360px-640px)*/
+@media (min-width:360px) and (max-width:361px){

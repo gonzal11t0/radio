@@ -3,13 +3,13 @@
         display:flex;
         position:absolute;
         width:-20%;        
-        top:40%;
+        top:30vw;
         left:43%;
     }
     .google2{
         display:flex;
         position:absolute;     
-        top:100%;
+        top:50vw;
         left:48%;  
     }
 

@@ -1,3 +1,14 @@
+@media(min-width:1022px) and (max-width:1024px){
+    .reproductor{
+        display:flex;
+        position:absolute;
+        top:10vw;
+        left:40vw; 
+        width:90vw;
+        height:30vw;
+    }
+}
+
 /*pc normal*/
 body{
     background-color: rgb(31, 31, 31);

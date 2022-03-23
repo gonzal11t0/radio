@@ -1048,7 +1048,7 @@ body{
     }
 }
 /*balckberry palybook(600*1024)*/
-@media (min-width:590px) and (max-width:601px){
+/*@media (min-width:590px) and (max-width:601px){
     .reproductor{
         top:20vw;
         height:16vw;    
@@ -1081,7 +1081,7 @@ body{
 }
 
 /*galaxy s8(360px-740px)*/
-@media (min-width:355px) and (max-width:365px){
+/*@media (min-width:355px) and (max-width:365px){
     .reproductor{
         top:20vw;
         height:80vw;
@@ -1099,7 +1099,7 @@ body{
     }
 }
 /*galaxy s9+(320px-658px)*/
-@media (min-width:315px) and (max-width:325px){
+/*@media (min-width:315px) and (max-width:325px){
     .reproductor{
         top:25vw;
         height:30vw;
@@ -1128,7 +1128,7 @@ body{
     }
 }
 /*galaxy tab S4(712px-1138px)*/
-@media (min-width:700px) and (max-width:715px){
+/*@media (min-width:700px) and (max-width:715px){
     .reproductor{
         top:13vw;
         left:0vw;
@@ -1178,4 +1178,4 @@ body{
         .parrafos{
             top:28vw;
         }
-}
+}*/

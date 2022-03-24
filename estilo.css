@@ -563,7 +563,7 @@ body{
 }
 @media screem and (min-width:375px) and (max-width:375px){
     .reproductor{
-        height: 55vw;
+        height:5vw;
     }
 }
 @media screen and (min-width:280px) and (max-width:400px){

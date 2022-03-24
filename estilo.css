@@ -227,20 +227,13 @@ body{
         color: #28a745;
         display: flex;
         position: absolute;
-        top:90%;
-        left:43%;
-    }
-    .google{
-        display:flex;
-        position:absolute;
-        width:-20%;        
-        top:40%;
-        left:43%;
+        top:40vw;
+        left:41vw;
     }
     .google2{
         display:flex;
         position:absolute;     
-        top:100%;
+        top:45vw;
         left:48%;  
     }
     .titulos{
@@ -441,11 +434,11 @@ body{
         font-size: 4vw;
         display: flex;
         position: absolute;
-        top:105vw;
+        top:115vw;
         left:18%;
     }
     .google2{   
-        top:115vw;
+        top:135vw;
         left:28%;
         width:10vw;
         height:6vw; 
@@ -589,6 +582,7 @@ body{
     }
     .google2{
         top:130vw;
+        left:30vw;
     }
     .icono-desplazamiento-ig{
         position: absolute;
@@ -641,6 +635,7 @@ body{
     .mapa{
         width:95vw;
         top:15vw;
+        height:90vw;
     }
     .icono-desplazamiento-ig-nosotros{
         position: absolute;

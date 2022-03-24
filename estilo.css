@@ -1,28 +1,3 @@
-@media(min-width:1628px) and (max-width:1630px){
-    .google{
-        display:flex;
-        position:absolute;
-        width:-20%;        
-        top:30vw;
-        left:43%;
-    }
-    .google2{
-        display:flex;
-        position:absolute;     
-        top:50vw;
-        left:48%;  
-    }
-
-@media(min-width:1022px) and (max-width:1024px){
-    .reproductor{
-        display:flex;
-        position:absolute;
-        top:10vw;
-        left:40vw; 
-        width:90vw;
-        height:30vw;
-    }
-}
 
 /*pc normal*/
 body{

@@ -21,7 +21,12 @@
 .mapa{
 
 
-
+medias a cambiar:
+desktop:
+1024px  (centrar reproducror-achicar texto y google en inicio)
+1680px  (achicar texto y google en inicio)
+1920px	(achicar texto y google en inicio)
+1920px	(achicar texto y google en inicio)
 16=miercoles = 4hs
 17=jueves=2
 18=viernes=2

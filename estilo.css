@@ -561,11 +561,6 @@ body{
         width:80vw;
     }
 }
-@media screem and (min-width:375px) and (max-width:375px){
-    .reproductor{
-        height:5vw;
-    }
-}
 @media screen and (min-width:280px) and (max-width:400px){
     nav{
         font-size:5vw;

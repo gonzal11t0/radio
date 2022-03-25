@@ -22,11 +22,15 @@ body{
         transition:1.5s;
     }
     .menu-horizontal li a{
-        display:block;
         color:white;
-        padding:15px 15px 15px 20px;
         text-decoration:none;
     }  
+    .redes-sociales{
+        display: flex;
+        flex-direction: column;
+        Align items: center;
+        Justify content: space between
+    }
     .icono-desplazamiento-ig{
         box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
         border-radius:20px;
@@ -225,15 +229,14 @@ body{
     }
     #id-google{
         color: #28a745;
-        display: flex;
         position: absolute;
-        top:40vw;
-        left:41vw;
+        top:-10vw;
+        left:0vw;
     }
     .google2{
         display:flex;
         position:absolute;     
-        top:45vw;
+        top:50vw;
         left:48%;  
     }
     .titulos{

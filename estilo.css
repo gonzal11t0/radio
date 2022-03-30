@@ -26,192 +26,99 @@ body{
         text-decoration:none;
     }  
     .redes-sociales{
-        display: flex;
-        flex-direction: column;
-        Align items: center;
-        Justify content: space between
+        display:flex;
+        flex-direction:column;
+        Align-items:center;
+        Justify-content: space-between;
     }
     .icono-desplazamiento-ig{
-        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        box-shadow: 6px 2px 16px rgba(224, 28, 28, 0.7);
         border-radius:20px;
         position:fixed;
         margin:25px;
         right:0vw;
         top:6vw;
     }
-    /*.icono-desplazamiento-ig:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position:fixed;
-        margin:25px;
-        right:0vw;
-        top:7vw;
-    }*/
     .icono-desplazamiento-ig-ubicacion{
-        position:absolute;
+        position:fixed;
         top:8vw;
         width:-0vw;
         height:6vw;
         right:6vw;
     }
-    /*.icono-desplazamiento-ig-ubicacion:hover{
-        box-shadow: 8px 4px 6px rgba(128, 125, 125, 0.7);
-        border-radius:40px;
-        position:absolute;
-        top:9vw;
-        width:-0vw;
-        height:6vw;
-    }*/
     .icono-desplazamiento-ig-nosotros{
-        position: absolute;
+        position:fixed;
         top:8vw;
         width:-0vw;
         height:6vw;
         right:6vw;
     }
-    /*.icono-desplazamiento-ig-nosotros:hover{
-        position: absolute;
-        top:9vw;
-        width:-0vw;
-        height:6vw;
-        right:6vw;
-    }*/
     .icono-desplazamiento-tw{
-        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
         border-radius: 20px;
         position: fixed;
         margin:25px;
         right:0vw;
         top:12vw;
     }
-    /*.icono-desplazamiento-tw:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position: fixed;
-        margin:25px;
-        right:0vw;
-        top:13vw;
-    }*/
     .icono-desplazamiento-tw-ubicacion{
-        position: absolute;
+        position:fixed;
         top:15vw;
         width:0vw;
         height:6vw;
         right:6vw;
     }
-    /*.icono-desplazamiento-tw-ubicacion:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position: absolute;
-        top:16vw;
-        width:0vw;
-        height:6vw;
-        right:6vw;
-    }*/
     .icono-desplazamiento-tw-nosotros{
-        position: absolute;
+        position:fixed;
         top:15vw;
         width:0vw;
         height:6vw;
         right:6vw;
     }
-    /*.icono-desplazamiento-tw-nosotros:hover{
-        position: absolute;
-        top:16vw;
-        width:0vw;
-        height:6vw;
-        right:6vw;
-    }*/
     .icono-desplazamiento-face{
-        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        box-shadow: 6px 2px 16px rgba(67, 112, 226, 0.7);
         border-radius: 20px;
-        position: fixed;
+        position:fixed;
         margin:25px;
         right:0vw;
         top:18vw;
     }
-    /*.icono-desplazamiento-face:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position:fixed;
-        margin:25px;
-        right:0vw;
-        top:19vw;
-    }*/
     .icono-desplazamiento-face-ubicacion{
-        position: absolute;
+        position:fixed;
         top:25vw;
         width:2vw;
         height:2vw;
         right:4vw;
     }
-    /*.icono-desplazamiento-face-ubicacion:hover{
-        position: absolute;
-        top:27vw;
-        width:2vw;
-        height:2vw;
-        right:4vw;
-    }*/
     .icono-desplazamiento-face-nosotros{
-        position: absolute;
+        position:fixed;
         top:25vw;
         width:2vw;
         height:2vw;
         right:4vw;
     }
-    /*.icono-desplazamiento-face-nosotros:hover{
-        position: absolute;
-        top:27vw;
-        width:2vw;
-        height:2vw;
-        right:4vw;
-    }*/
     .icono-desplazamiento-wsp{
-        box-shadow: 6px 2px 6px rgb(0 0 0 / 70%);
+        box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
         border-radius: 20px;
         position: fixed;
         margin:25px;
         right:0vw;
         top:25vw;
     }
-    /*.icono-desplazamiento-wsp:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position: fixed;
-        margin:25px;
-        right:0vw;
-        top:26vw;
-    }*/
     .icono-desplazamiento-wsp-ubicacion{
-        position: absolute;
+        position:fixed;
         top:35vw;
         width:0vw;
         height:6vw;
         right:5vw;
     }
-    /*.icono-desplazamiento-wsp-ubicacion:hover{
-        box-shadow: 8px 4px 6px rgba(100, 97, 97, 0.7);
-        border-radius:40px;
-        position: fixed;
-        top:37vw;
-        width:0vw;
-        height:6vw;
-        right:5vw;
-    }*/
     .icono-desplazamiento-wsp-nosotros{
-        position: absolute;
+        position:fixed;
         top:35vw;
         width:0vw;
         height:6vw;
         right:5vw;
     }
-    /*.icono-desplazamiento-wsp-nosotros:hover{
-        position: absolute;
-        top:37vw;
-        width:0vw;
-        height:6vw;
-        right:5vw;
-    }*/
     .foto-icono{
         display:flex;
         position: absolute;
@@ -224,7 +131,6 @@ body{
         position:absolute;
         top:10vw;
         left:40vw; 
-        width:90vw;
         height:30vw;
     }
     #id-google{
@@ -248,12 +154,12 @@ body{
         transition:1s;
     }
     .titulos:hover{  
-        color: #4f9;
+        color: rgb(3, 97, 45);
         font-size:3.5vw;
         font-family:Georgia, 'Times New Roman', Times, serif;
     }
     .titulos::first-letter{    
-        font-size:4vw;
+        font-size:4.5vw;
         color: green;
     }
     .parrafos{
@@ -268,15 +174,15 @@ body{
     .parrafos:hover{
         color: #4f9;
         position: absolute;
-        font-size:1.6vw;
+        font-size:2vw;
         font-family:'Open Sans',sans-serif;
-        text-shadow: 0 0 20px rgb(87, 86, 86); 
-        box-shadow: 0 0 25px rgb(1, 44, 21);
+        text-shadow: 0 0 20px rgb(56, 9, 9); 
+        box-shadow: 0 0 25px rgb(2, 83, 40);
         
     }
     .parrafos::first-letter{
         position: absolute;
-        color: green;
+        color: rgb(1, 57, 1);
         font-size:4vw;
     }
     .mapa{

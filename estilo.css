@@ -127,8 +127,8 @@ body{
         margin:auto;
         font-size:2vw;
         margin-top:0px;
-        text-shadow: 0 0 20px;/* rgb(219, 32, 32); */
-        box-shadow: 0 0 15px rgb(6, 173, 81);
+        text-shadow: 2 2 20px;/* rgb(219, 32, 32); */
+        box-shadow: 20px 2px 15px rgb(6, 173, 81);
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .menu-horizontal{
@@ -137,8 +137,8 @@ body{
         justify-content:space-around;
         text-decoration:underline;  
     }
-    .menu-horizontal > li:hover{
-        background-color:rgb(2, 80, 37);
+    .menu-horizontal > li:hover{ 
+        background:linear-gradient(to right,rgba(2, 44, 21, 0.2),rgb(224, 230, 227));
         text-decoration:underline;
         transition:1.5s;
     }
@@ -161,18 +161,19 @@ body{
         top:6vw;
     }
     .icono-desplazamiento-ig-ubicacion{
+        box-shadow: 6px 2px 16px rgba(224, 28, 28, 0.7);
+        border-radius:50px;
         position:fixed;
         top:8vw;
-        width:-0vw;
-        height:6vw;
-        right:6vw;
+        height:5vw;
+        right:1vw;
     }
     .icono-desplazamiento-ig-nosotros{
+        box-shadow: 6px 2px 16px rgba(224, 28, 28, 0.7);
+        border-radius:50px;
         position:fixed;
         top:8vw;
-        width:-0vw;
-        height:6vw;
-        right:6vw;
+        right:1vw;
     }
     .icono-desplazamiento-tw{
         box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
@@ -183,18 +184,19 @@ body{
         top:12vw;
     }
     .icono-desplazamiento-tw-ubicacion{
+        box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
+        border-radius:50px;
         position:fixed;
         top:15vw;
-        width:0vw;
-        height:6vw;
-        right:6vw;
+        height:5vw;
+        right:1vw;
     }
     .icono-desplazamiento-tw-nosotros{
+        box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
+        border-radius:50px;
         position:fixed;
         top:15vw;
-        width:0vw;
-        height:6vw;
-        right:6vw;
+        right:1vw;
     }
     .icono-desplazamiento-face{
         box-shadow: 6px 2px 6px rgba(67, 112, 226, 0.7);
@@ -205,18 +207,18 @@ body{
         top:18vw;
     }
     .icono-desplazamiento-face-ubicacion{
+        box-shadow: 6px 2px 6px rgba(67, 112, 226, 0.7);
+        border-radius:50px;
         position:fixed;
         top:25vw;
-        width:2vw;
-        height:2vw;
-        right:4vw;
+        right:1vw;
     }
     .icono-desplazamiento-face-nosotros{
+        box-shadow: 6px 2px 6px rgba(67, 112, 226, 0.7);
+        border-radius:50px;
         position:fixed;
         top:25vw;
-        width:2vw;
-        height:2vw;
-        right:4vw;
+        right:1vw;
     }
     .icono-desplazamiento-wsp{
         box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
@@ -227,18 +229,18 @@ body{
         top:25vw;
     }
     .icono-desplazamiento-wsp-ubicacion{
+        box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
+        border-radius:50px;
         position:fixed;
         top:35vw;
-        width:0vw;
-        height:6vw;
-        right:5vw;
+        right:1vw;
     }
     .icono-desplazamiento-wsp-nosotros{
+        box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
+        border-radius:50px;
         position:fixed;
         top:35vw;
-        width:0vw;
-        height:6vw;
-        right:5vw;
+        right:1vw;
     }
     .foto-icono{
         display:flex;
@@ -257,13 +259,12 @@ body{
     #id-google{
         color: #28a745;
         position: absolute;
-        top:-12vw;
+        top:-8vw;
         left:0vw;
     }
     .google2{
-        display:flex;
         position:absolute;     
-        top:50vw;
+        top:45vw;
         left:48%;  
     }
     .titulos{
@@ -275,7 +276,7 @@ body{
         transition:1s;
     }
     .titulos:hover{  
-        color: rgb(3, 97, 45);
+        color: rgb(36, 137, 83);
         font-size:3.5vw;
         font-family:Georgia, 'Times New Roman', Times, serif;
     }
@@ -307,11 +308,12 @@ body{
         font-size:4vw;
     }
     .mapa{
+        display: flex;
         position: absolute;
-        top:5vw;
+        top:4vw;
         left:1vw;
         width:83vw;
-        height:40vw;
+        height:37vw;
     }
 @media(min-width:600px) and (max-width:800px){
     nav{

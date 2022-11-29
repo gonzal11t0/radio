@@ -20,30 +20,130 @@
     }
     .icono-desplazamiento-ig{
         right:0%;
-        width:5%;
+        width:8%;
         height:1%;
         top:25vh;
     }
     .icono-desplazamiento-tw{
         right:0%;
-        width:5%;
+        width:8%;
         height:1%;
         top:75vh;
     }
     .icono-desplazamiento-face{
-        left:1%;
-        width:5%;
+        left:0%;
+        width:7%;
         height:1%;
         top:25vh;
     }
     .icono-desplazamiento-wsp{
-        left:1%;
-        width:5%;
+        left:0%;
+        width:7%;
         height:1%;
         top:75vh;
     }
+    .icono-desplazamiento-ig-ubicacion{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        right:0vw;
+        top:80vh;
+    }
+    .icono-desplazamiento-tw-ubicacion{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:43vw;
+        top:80vh;
+    }
+    .icono-desplazamiento-face-ubicacion{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:21vw;
+        top:80vh;
+    }
+    .icono-desplazamiento-wsp-ubicacion{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:0vw;
+        top:80vh;
+    }
+    .mapa{
+        display: flex;
+        position: absolute;
+        top:5vh;
+        left:0vw;
+        width:99.7%;
+        height:60vh;
+    }
+    .titulos{
+        color: rgb(10, 182, 87);
+        position: absolute;
+        font-size:1.5rem;
+        font-family:'Open Sans',sans-serif;
+        text-align:center;
+        transition:none;
+        top:10vh;
+        left:30%;
+    }
+    .titulos:hover{  
+        display: none;
+    }
+    .titulos::first-letter{    
+        font-size:2.8rem;
+        color: rgb(66, 130, 220);
+    }
+    .parrafos{
+        color: rgb(9, 199, 94);
+        position: absolute;
+        font-size:1.2rem;
+        font-family:'Open Sans',sans-serif;
+        top:25vh;
+        box-shadow: none;
+        transition:none;
+        left:1%;
+    }
+    .parrafos:hover{
+        display: none;
+        
+    }
+    .parrafos::first-letter{
+        position: absolute;
+        color: rgb(1, 57, 1);
+        font-size:2.8rem;
+    }
+    .icono-desplazamiento-ig-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        right:0vw;
+        top:100vh;
+    }
+    .icono-desplazamiento-tw-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:50vw;
+        top:100vh;
+    }
+    .icono-desplazamiento-face-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:26vw;
+        top:100vh;
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:0vw;
+        top:101vh;
+    }
 }
-@media (min-width:310px) and (max-width:450px){
+@media  (min-width:310px) and (max-width:450px){
     nav{
         font-size:0.8rem;
         box-shadow:none;
@@ -68,21 +168,21 @@
         flex-basis:20px;
         flex-shrink:1; 
         position: absolute;
-        left:40%;
+        left:37%;
         top:59%;  
     }
     .icono-desplazamiento-ig{
         right:-2%;
-        width:6%;
+        width:8%;
         top:60vh;
     }
     .icono-desplazamiento-tw{
-        right:8%;
-        width:6%;
+        right:10%;
+        width:8%;
         top:60vh;
     }
     .icono-desplazamiento-face{
-        left:12%;
+        left:15%;
         width:9%;
         top:60vh;
     }
@@ -91,9 +191,70 @@
         width:6%;
         top:60vh;
     }
-}
-@media only screen and (orientation: landscape) {
-    body {
-        background-color: lightblue;
+    .icono-desplazamiento-ig-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        right:0vw;
+        top:85vh;
+    }
+    .icono-desplazamiento-tw-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:48vw;
+        top:85vh;
+    }
+    .icono-desplazamiento-face-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:24vw;
+        top:85vh;
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:0vw;
+        top:85vh;
+    }
+    .titulos{
+        color: rgb(10, 182, 87);
+        position: absolute;
+        font-size:2rem;
+        font-family:'Open Sans',sans-serif;
+        text-align:center;
+        transition:none;
+        top:20vh;
+        left:10%;
+    }
+    .titulos:hover{  
+        display: none;
+    }
+    .titulos::first-letter{    
+        font-size:3rem;
+        color: rgb(66, 130, 220);
+    }
+    .article{
+        width:40%;
+    }
+    .parrafos{
+        color: rgb(9, 199, 94);
+        position: absolute;
+        font-size:1rem;
+        font-family:'Open Sans',sans-serif;
+        top:35vh;
+        left:10%;
+        box-shadow: none;
+        transition:none;
+    }
+    .parrafos:hover{
+        display: none;
+    }
+    .parrafos::first-letter{
+        position: absolute;
+        color: rgb(1, 57, 1);
+        font-size:3rem;
     }
 }

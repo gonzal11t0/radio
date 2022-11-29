@@ -181,141 +181,134 @@ body{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:2vw;
+        right:0vw;
+        top:15vh;
         padding:20px;
-        margin-bottom: 20px;
     }
     .icono-desplazamiento-tw{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:2vw;
+        right:0vw;
         padding:20px;
-        margin-bottom: 20px;
-        top:30vh;
+        top:35vh;
     }
     .icono-desplazamiento-face{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:2vw;
+        right:0vw;
         padding:20px;
-        margin-bottom: 20px;
-        top:45vh;
+        top:50vh;
     }
     .icono-desplazamiento-wsp{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:2vw;
+        right:0vw;
         padding:20px;
-        margin-bottom: 20px;
-        top:60vh;
+        top:65vh;
     }
     .icono-desplazamiento-ig-ubicacion{
-        box-shadow: 6px 2px 16px rgba(224, 28, 28, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:8vw;
-        height:5vw;
-        right:1vw;
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        right:0vw;
+        top:95vh;
     }
-    .icono-desplazamiento-ig-nosotros{
-        box-shadow: 6px 2px 16px rgba(224, 28, 28, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:8vw;
-        right:1vw;
-    }
-
     .icono-desplazamiento-tw-ubicacion{
-        box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:15vw;
-        height:5vw;
-        right:1vw;
-    }
-    .icono-desplazamiento-tw-nosotros{
-        box-shadow: 6px 2px 16px rgba(83, 132, 196, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:15vw;
-        right:1vw;
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:55vw;
+        top:95vh;
     }
     .icono-desplazamiento-face-ubicacion{
-        box-shadow: 6px 2px 6px rgba(67, 112, 226, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:25vw;
-        right:1vw;
-    }
-    .icono-desplazamiento-face-nosotros{
-        box-shadow: 6px 2px 6px rgba(67, 112, 226, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:25vw;
-        right:1vw;
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:25vw;
+        top:95vh;
     }
     .icono-desplazamiento-wsp-ubicacion{
-        box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:35vw;
-        right:1vw;
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:0vw;
+        top:95vh;
     }
-    .icono-desplazamiento-wsp-nosotros{
-        box-shadow: 6px 2px 16px rgba(6, 116, 55, 0.7);
-        border-radius:50px;
-        position:fixed;
-        top:35vw;
-        right:1vw;
+    .mapa{
+        display: flex;
+        position: absolute;
+        top:10vh;
+        left:0vw;
+        width:99.7%;
+        height:70vh;
     }
     .titulos{
         color: rgb(10, 182, 87);
         position: absolute;
-        font-size:2.5vw;
+        font-size:2rem;
         font-family:'Open Sans',sans-serif;
         text-align:center;
-        transition:1s;
+        transition:none;
+        top:20vh;
+        left:33%;
     }
     .titulos:hover{  
-        color: rgb(36, 137, 83);
-        font-size:3.5vw;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        display: none;
     }
     .titulos::first-letter{    
-        font-size:4.5vw;
-        color: green;
+        font-size:3rem;
+        color: rgb(66, 130, 220);
+    }
+    .article{
+        width:80%;
     }
     .parrafos{
         color: rgb(9, 199, 94);
         position: absolute;
-        font-size:1.5vw;
+        font-size:1.5rem;
         font-family:'Open Sans',sans-serif;
-        top:20vw;
-        box-shadow: #17a2b8;
-        transition:1s;
+        top:35vh;
+        left:10%;
+        box-shadow: none;
+        transition:none;
     }
     .parrafos:hover{
-        color: #4f9;
-        position: absolute;
-        font-size:2vw;
-        font-family:'Open Sans',sans-serif;
-        text-shadow: 0 0 20px rgb(56, 9, 9); 
-        box-shadow: 0 0 25px rgb(2, 83, 40);
+        display: none;
         
     }
     .parrafos::first-letter{
         position: absolute;
         color: rgb(1, 57, 1);
-        font-size:4vw;
+        font-size:3rem;
     }
-    .mapa{
-        display: flex;
+    .icono-desplazamiento-ig-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
         position: absolute;
-        top:4vw;
-        left:1vw;
-        width:83vw;
-        height:37vw;
+        right:0vw;
+        top:90vh;
+    }
+    .icono-desplazamiento-tw-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:55vw;
+        top:90vh;
+    }
+    .icono-desplazamiento-face-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:26vw;
+        top:90vh;
+    }
+    .icono-desplazamiento-wsp-nosotros{
+        flex-basis:40px;
+        flex-shrink:3; 
+        position: absolute;
+        left:0vw;
+        top:90vh;
     }

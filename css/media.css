@@ -1,0 +1,99 @@
+@media (max-width:700px){
+    nav{
+        font-size:1rem;
+        box-shadow:none;
+    }
+    .burbuja{
+        display:none;
+    }
+    .container-reproductor{
+        top:35%;
+        left:48%;
+        width:0%;
+        justify-content: center;
+    }
+    .icono-google-play{
+        position: absolute;
+        left:40%;
+        top:75%;
+        padding-top:0px;  
+    }
+    .icono-desplazamiento-ig{
+        right:0%;
+        width:5%;
+        height:1%;
+        top:25vh;
+    }
+    .icono-desplazamiento-tw{
+        right:0%;
+        width:5%;
+        height:1%;
+        top:75vh;
+    }
+    .icono-desplazamiento-face{
+        left:1%;
+        width:5%;
+        height:1%;
+        top:25vh;
+    }
+    .icono-desplazamiento-wsp{
+        left:1%;
+        width:5%;
+        height:1%;
+        top:75vh;
+    }
+}
+@media (min-width:310px) and (max-width:450px){
+    nav{
+        font-size:0.8rem;
+        box-shadow:none;
+    }
+    .menu-horizontal{
+        text-decoration: none;
+    }
+    .menu-horizontal li a{
+        padding-right:25px;
+    }
+    .burbuja{
+        display:none;
+    }
+    .container-reproductor{
+        top:15%;
+        left:48%;
+        width:0%;
+        justify-content: center;
+    }
+    .icono-google-play{
+        padding: 20px;
+        flex-basis:20px;
+        flex-shrink:1; 
+        position: absolute;
+        left:40%;
+        top:59%;  
+    }
+    .icono-desplazamiento-ig{
+        right:-2%;
+        width:6%;
+        top:60vh;
+    }
+    .icono-desplazamiento-tw{
+        right:8%;
+        width:6%;
+        top:60vh;
+    }
+    .icono-desplazamiento-face{
+        left:12%;
+        width:9%;
+        top:60vh;
+    }
+    .icono-desplazamiento-wsp{
+        left:0%;
+        width:6%;
+        top:60vh;
+    }
+}
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}

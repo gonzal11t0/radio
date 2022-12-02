@@ -166,7 +166,7 @@
     }
     .icono-google-play{
         width:8vw;
-        top:66vh;
+        top:64vh;
         height: auto;
         left:35vw;
     }
@@ -199,7 +199,7 @@
         position: absolute;
         left:1vw;
         padding:20px;
-        top:62vh;
+        top:60vh;
     }
     .icono-desplazamiento-ig-ubicacion{
         flex-basis:40px;

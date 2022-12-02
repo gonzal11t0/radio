@@ -166,8 +166,7 @@
     }
     .icono-google-play{
         width:8vw;
-        top:64vh;
-        height: auto;
+        top:65vh;
         left:35vw;
     }
     .icono-desplazamiento-ig{
@@ -175,7 +174,7 @@
         flex-shrink:3; 
         position: absolute;
         right:3vw;
-        top:60vh;
+        top:61vh;
     }
     .icono-desplazamiento-tw{
         flex-basis:40px;
@@ -183,23 +182,22 @@
         position: absolute;
         right:20vw;
         padding:20px;
-        top:60vh;
+        top:61vh;
     }
     .icono-desplazamiento-face{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
         left:15vw;
-        padding:20px;
-        top:60vh;
+        top:61vh;
     }
     .icono-desplazamiento-wsp{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        left:1vw;
+        left:0vw;
         padding:20px;
-        top:60vh;
+        top:62vh;
     }
     .icono-desplazamiento-ig-ubicacion{
         flex-basis:40px;

@@ -164,30 +164,24 @@
         justify-content: center;
     }
     .icono-google-play{
-        display:block;
-        margin: auto;
+        width:8vw;
+        top:65vh;
         height: auto;
-        position: absolute;
-        width:1vw;
-        flex-basis:20px;
-        flex-shrink:1; 
-        left:36%;
-        top:66vh;  
     }
     .icono-desplazamiento-ig{
-        right:-2%;
-        width:8%;
+        right:-2vw;
+        width:8vw;
         top:60vh;
         height: auto;
     }
     .icono-desplazamiento-tw{
-        right:13%;
-        width:9%;
+        right:13vw;
+        width:9vw;
         top:60vh;
         height: auto;
     }
     .icono-desplazamiento-face{
-        left:15%;
+        left:15vw;
         width:9%;
         top:60vh;
         height: auto;

@@ -154,13 +154,14 @@
     .menu-horizontal li a{
         padding-right:25px;
     }
+    
     .burbuja{
         display:none;
     }
     .container-reproductor{
         top:15%;
-        left:48%;
-        width:0%;
+        left:22%;
+        width:46vw;
         justify-content: center;
     }
     .icono-google-play{
@@ -169,20 +170,20 @@
         height: auto;
     }
     .icono-desplazamiento-ig{
-        right:-2vw;
+        right:4vw;
         width:8vw;
         top:60vh;
         height: auto;
     }
     .icono-desplazamiento-tw{
-        right:13vw;
+        right:17vw;
         width:9vw;
         top:60vh;
         height: auto;
     }
     .icono-desplazamiento-face{
         left:15vw;
-        width:9%;
+        width:10vw;
         top:60vh;
         height: auto;
     }

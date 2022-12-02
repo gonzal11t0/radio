@@ -122,7 +122,7 @@ body{
 }
     nav{
         margin:auto;
-        font-size:1.6rem;
+        font-size:1.4rem;
         margin-top:0px;
         text-shadow: 2 2 20px;/* rgb(219, 32, 32); */
         box-shadow: 20px 2px 15px rgb(6, 173, 81);
@@ -181,7 +181,7 @@ body{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:0vw;
+        right:3vw;
         top:15vh;
         padding:20px;
     }
@@ -189,7 +189,7 @@ body{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:0vw;
+        right:3vw;
         padding:20px;
         top:35vh;
     }
@@ -197,7 +197,7 @@ body{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:0vw;
+        right:3vw;
         padding:20px;
         top:50vh;
     }
@@ -205,13 +205,14 @@ body{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
-        right:0vw;
+        right:3vw;
         padding:20px;
         top:65vh;
     }
     .icono-desplazamiento-ig-ubicacion{
         flex-basis:40px;
         flex-shrink:3; 
+        height: auto;
         position: absolute;
         right:0vw;
         top:95vh;
@@ -219,6 +220,7 @@ body{
     .icono-desplazamiento-tw-ubicacion{
         flex-basis:40px;
         flex-shrink:3; 
+        height: auto;
         position: absolute;
         left:55vw;
         top:95vh;
@@ -233,6 +235,7 @@ body{
     .icono-desplazamiento-wsp-ubicacion{
         flex-basis:40px;
         flex-shrink:3; 
+        height: auto;
         position: absolute;
         left:0vw;
         top:95vh;

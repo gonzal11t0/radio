@@ -159,8 +159,8 @@
         display:none;
     }
     .container-reproductor{
-        top:15%;
-        left:22%;
+        top:35vw;
+        left:27vw;
         width:46vw;
         justify-content: center;
     }
@@ -247,28 +247,28 @@
         flex-shrink:3; 
         position: absolute;
         right:0vw;
-        top:85vh;
+        top:95vh;
     }
     .icono-desplazamiento-tw-nosotros{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
         left:48vw;
-        top:85vh;
+        top:95vh;
     }
     .icono-desplazamiento-face-nosotros{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
         left:24vw;
-        top:85vh;
+        top:95vh;
     }
     .icono-desplazamiento-wsp-nosotros{
         flex-basis:40px;
         flex-shrink:3; 
         position: absolute;
         left:0vw;
-        top:85vh;
+        top:95vh;
     }
     .titulos{
         color: rgb(10, 182, 87);

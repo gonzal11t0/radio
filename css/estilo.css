@@ -258,9 +258,6 @@ body{
         top:20vh;
         left:33%;
     }
-    .titulos:hover{  
-        display: none;
-    }
     .titulos::first-letter{    
         font-size:3rem;
         color: rgb(66, 130, 220);
@@ -277,10 +274,6 @@ body{
         left:10%;
         box-shadow: none;
         transition:none;
-    }
-    .parrafos:hover{
-        display: none;
-        
     }
     .parrafos::first-letter{
         position: absolute;
